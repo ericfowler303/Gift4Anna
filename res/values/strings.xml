@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gift4Anna</string>
+    <string name="giftBoxString">Gift Box</string>
+    <string name="birthdayString">Happy Birthday Anna!!!</string>
+    <string name="heartString">Heart</string>  
+
+</resources>

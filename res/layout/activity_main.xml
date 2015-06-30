@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hroo772.gift4anna.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/dummyHeart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="90dp"
+        android:contentDescription="@string/heartString"
+        android:padding="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/heart_red"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/giftBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/giftBoxString"
+        android:padding="0dp"
+        android:src="@drawable/gift_box" />
+
+    <ImageView
+        android:id="@+id/giftBoxTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="140dp"
+        android:contentDescription="@string/giftBoxString"
+        android:focusable="false"
+        android:padding="0dp"
+        android:src="@drawable/boxtop" />
+
+    <TextView
+        android:id="@+id/birthdayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0"
+        android:clickable="false"
+        android:gravity="center"
+        android:lines="3"
+        android:longClickable="false"
+        android:padding="0dp"
+        android:text="@string/birthdayString"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="55sp"
+        android:width="300dp" />
+
+</FrameLayout>
+
